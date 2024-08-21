@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=New+Amsterdam&display=swap');
+
+*{
+
+
+    margin: 10px;
+    width: auto; 
+
+}
+  body{
+
+
+    background-color:rgb(255, 255, 255) ;
+    background-image: url(https://rollingstone.com.br/media/_versions/2024/02/super-mario-bros-o-filme-chega-ao-streaming-quase-um-ano-apos-a-estreia-nos-cinemas-foto-divulgacaouniversal-pictures_widelg.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+   h1{
+    color: azure;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: justify;
+  }
+  p{
+    text-align:justify;
+  }
+  img{
+    width:380px ;
+    height:380px ;
+    border-width: 10px ;
+    border-style: groove ;
+    border-color:rgb(255, 0, 0) ;
+    margin-left: 130px;
+  }
+  nav{
+    background-color: #020202;
+    padding: 10px 0;
+  }
+   nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   }
+  nav ul li a{
+    margin: 0 15px;
+  }
+
+
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+        font-family: "New Amsterdam", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+     
+  }
+  nav ul li a :hover{
+    color:#ff6347;
+  }
